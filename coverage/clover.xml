@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1544405987255" clover="3.2.0">
+  <project timestamp="1544405987255" name="All files">
+    <metrics statements="30" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="1" elements="38" coveredelements="13" complexity="0" loc="30" ncloc="30" packages="3" files="3" classes="3">
+      <package name="controllers">
+        <metrics statements="22" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="1"/>
+        <file name="author_controller.js" path="/Users/garretblankenship/Desktop/mongoose-relations/controllers/author_controller.js">
+          <metrics statements="22" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="1"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="database.models">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="author_model.js" path="/Users/garretblankenship/Desktop/mongoose-relations/database/models/author_model.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="database.schemas">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="author_schema.js" path="/Users/garretblankenship/Desktop/mongoose-relations/database/schemas/author_schema.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
