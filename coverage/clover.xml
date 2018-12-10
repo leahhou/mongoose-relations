@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1544405987255" clover="3.2.0">
-  <project timestamp="1544405987255" name="All files">
-    <metrics statements="30" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="1" elements="38" coveredelements="13" complexity="0" loc="30" ncloc="30" packages="3" files="3" classes="3">
-      <package name="controllers">
-        <metrics statements="22" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="1"/>
-        <file name="author_controller.js" path="/Users/garretblankenship/Desktop/mongoose-relations/controllers/author_controller.js">
-          <metrics statements="22" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="1"/>
+<coverage generated="1544412952635" clover="3.2.0">
+  <project timestamp="1544412952637" name="All files">
+    <metrics statements="125" coveredstatements="83" conditionals="0" coveredconditionals="0" methods="17" coveredmethods="2" elements="142" coveredelements="85" complexity="0" loc="125" ncloc="125" packages="5" files="13" classes="13">
+      <package name="mongoose-relations">
+        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="app.js" path="/Users/garretblankenship/Desktop/mongoose-relations/app.js">
+          <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="1" type="stmt"/>
-          <line num="5" count="0" type="stmt"/>
-          <line num="6" count="0" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="mongoose-relations.controllers">
+        <metrics statements="54" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="17" coveredmethods="2"/>
+        <file name="author_controller.js" path="/Users/garretblankenship/Desktop/mongoose-relations/controllers/author_controller.js">
+          <metrics statements="22" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="2"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="6" count="2" type="stmt"/>
           <line num="7" count="0" type="stmt"/>
-          <line num="9" count="0" type="stmt"/>
+          <line num="9" count="2" type="stmt"/>
           <line num="14" count="1" type="stmt"/>
           <line num="15" count="1" type="stmt"/>
           <line num="20" count="0" type="stmt"/>
@@ -27,12 +45,57 @@
           <line num="50" count="0" type="stmt"/>
           <line num="51" count="0" type="stmt"/>
           <line num="52" count="0" type="stmt"/>
-          <line num="55" count="1" type="stmt"/>
+          <line num="55" count="2" type="stmt"/>
+        </file>
+        <file name="book_controller.js" path="/Users/garretblankenship/Desktop/mongoose-relations/controllers/book_controller.js">
+          <metrics statements="24" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="38" count="0" type="stmt"/>
+          <line num="43" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="52" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="54" count="0" type="stmt"/>
+          <line num="57" count="1" type="stmt"/>
+        </file>
+        <file name="comment_controller.js" path="/Users/garretblankenship/Desktop/mongoose-relations/controllers/comment_controller.js">
+          <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
         </file>
       </package>
-      <package name="database.models">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <package name="mongoose-relations.database.models">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <file name="author_model.js" path="/Users/garretblankenship/Desktop/mongoose-relations/database/models/author_model.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="6" count="2" type="stmt"/>
+        </file>
+        <file name="book_model.js" path="/Users/garretblankenship/Desktop/mongoose-relations/database/models/book_model.js">
           <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="1" type="stmt"/>
           <line num="2" count="1" type="stmt"/>
@@ -40,14 +103,82 @@
           <line num="6" count="1" type="stmt"/>
         </file>
       </package>
-      <package name="database.schemas">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <package name="mongoose-relations.database.schemas">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <file name="author_schema.js" path="/Users/garretblankenship/Desktop/mongoose-relations/database/schemas/author_schema.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="20" count="2" type="stmt"/>
+        </file>
+        <file name="book_schema.js" path="/Users/garretblankenship/Desktop/mongoose-relations/database/schemas/book_schema.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+        </file>
+        <file name="comment_schema.js" path="/Users/garretblankenship/Desktop/mongoose-relations/database/schemas/comment_schema.js">
           <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="1" count="1" type="stmt"/>
           <line num="2" count="1" type="stmt"/>
           <line num="4" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="mongoose-relations.routes">
+        <metrics statements="38" coveredstatements="38" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="author_routes.js" path="/Users/garretblankenship/Desktop/mongoose-relations/routes/author_routes.js">
+          <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+        </file>
+        <file name="book_routes.js" path="/Users/garretblankenship/Desktop/mongoose-relations/routes/book_routes.js">
+          <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
           <line num="20" count="1" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+        </file>
+        <file name="comment_routes.js" path="/Users/garretblankenship/Desktop/mongoose-relations/routes/comment_routes.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/garretblankenship/Desktop/mongoose-relations/routes/index.js">
+          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
         </file>
       </package>
     </metrics>
